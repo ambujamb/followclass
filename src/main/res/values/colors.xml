@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="app_theme_color">#FFFFFF</color>
+    <color name="main_color">#113d84</color>
+
+    <!--dots active colors-->
+    <color name="dot_light_screen1">#336cc6</color>
+    <color name="dot_light_screen2">#336cc6</color>
+    <color name="dot_light_screen3">#336cc6</color>
+    <color name="dot_light_screen4">#336cc6</color>
+
+    <!--dots inactive color-->
+    <color name="dot_dark_screen1">#2f4260</color>
+    <color name="dot_dark_screen2">#2f4260</color>
+    <color name="dot_dark_screen3">#2f4260</color>
+    <color name="dot_dark_screen4">#2f4260</color>
+
+
+    <array name="array_dot_active_color">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive_color">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+    <!--Bottom navigation color-->
+    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavText">#01294b</color>
+    <color name="bgBottomNavigation">#fe485a</color>
+</resources>
