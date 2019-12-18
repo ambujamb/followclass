@@ -25,7 +25,7 @@ public class signup_activity extends AppCompatActivity {
     private EditText mobile_number;
     private Spinner role_spinner;
     private Button signup;
-    private TextView login;
+    private TextView login_link;
 
     private String userName,passWord,email_Id,role_Spinner,mobile_Number;
 
@@ -47,7 +47,7 @@ public class signup_activity extends AppCompatActivity {
         mobile_number = (EditText) findViewById(R.id.input_mobileNumber);
         role_spinner = (Spinner) findViewById(R.id.input_roleSpinner);
         signup = (Button) findViewById(R.id.btn_signup);
-        login = (TextView) findViewById(R.id.link_signup);
+        login_link = (TextView) findViewById(R.id.link_signup);
 
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,R.layout.support_simple_spinner_dropdown_item,role);
         role_spinner.setAdapter(adapter);
@@ -60,6 +60,7 @@ public class signup_activity extends AppCompatActivity {
         });
 
         initAnimation();
+
 
     }
 
@@ -111,6 +112,7 @@ public class signup_activity extends AppCompatActivity {
         Toast.makeText(this, "Signup success", Toast.LENGTH_SHORT).show();
         signup.setEnabled(true);
         finish();
+        startActivity(new Intent(signup_activity.this,login_activity.class));
     }
 
     private boolean checkValidation() {

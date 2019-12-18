@@ -19,6 +19,7 @@ android {
 }
 
 dependencies {
+    api 'com.android.support:design:28.0.0-alpha3'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
     //noinspection GradleCompatible
@@ -37,5 +38,13 @@ dependencies {
     //noinspection GradleCompatible
     implementation 'com.android.support:design:26.1.0'
     implementation 'com.android.support:design:28.0.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    //firebase dependency
+    implementation 'com.google.firebase:firebase-core:16.0.1'
+
+    apply plugin: 'com.google.gms.google-services'
+
 
 }

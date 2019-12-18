@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "382230831305",
+    "firebase_url": "https://firecraft-project.firebaseio.com",
+    "project_id": "firecraft-project",
+    "storage_bucket": "firecraft-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382230831305:android:6f7027bc386f7f9f",
+        "android_client_info": {
+          "package_name": "com.example.ambuj.followclass"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382230831305-jop11br3mb9u9fl152q0t8qc10suga97.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ambuj.followclass",
+            "certificate_hash": "8893df186f8be52b815d0f683aba77e9f72372eb"
+          }
+        },
+        {
+          "client_id": "382230831305-80t1q23b5llrkdjrdlpj9iad5f8oc637.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrANVQ3Av41XFmid1R_W8NOYZxZYuWDtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382230831305-80t1q23b5llrkdjrdlpj9iad5f8oc637.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

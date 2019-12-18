@@ -3,6 +3,8 @@
     <dimen name="silde_title">30dp</dimen>
     <dimen name="slide_desc">16dp</dimen>
     <dimen name="desc_padding">40dp</dimen>
+    <dimen name="shr_product_grid_spacing">20dp</dimen>
+    <dimen name="shr_product_grid_spacing_small">10dp</dimen>
 
 
     <integer name="anim_duration_very_long">1000</integer>

@@ -67,10 +67,10 @@ public class IntroActivity extends AppCompatActivity {
 
         //images for background
         images = new int[]{
-                R.drawable.intro_image1,
-                R.drawable.intro_image2,
-                R.drawable.intro_image3,
-                R.drawable.intro_image4
+                R.drawable.intro_image_5,
+                R.drawable.intro_image_1,
+                R.drawable.intro_image_3,
+                R.drawable.intro_image_2
         };
 
 
@@ -145,8 +145,7 @@ public class IntroActivity extends AppCompatActivity {
             dots[i].setTextSize(35);
             dots[i].setTextColor(colorsInactive[currentPage]);
             relativeLayout.setBackgroundResource(images[currentPage]);
-            linearLayout.addView(dots[i]);
-
+            //linearLayout.addView(dots[i]);
         }
 
         if(dots.length>0){
@@ -156,7 +155,7 @@ public class IntroActivity extends AppCompatActivity {
 
     private void launchScreen() {
         prefManager.setFirstTimeLaunch(false);
-        Intent i =new Intent(this, Navigation_Main_Activity.class);
+        Intent i =new Intent(this, signup_activity.class);
         startActivity(i);
         finish();
     }

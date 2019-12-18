@@ -4,6 +4,13 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <!--Text color-->
+    <color name="textColorPrimary">#0c0b0b</color>
+    <color name="textColorSecondary">#FFFFFF</color>
+
+    <color name="prod">#FFFBFA</color>
+
+    
     <color name="app_theme_color">#FFFFFF</color>
     <color name="main_color">#113d84</color>
 

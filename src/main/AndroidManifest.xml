@@ -9,22 +9,41 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity.IntroActivity" />
-        <activity android:name=".Navigation_Main_Activity" />
-        <activity android:name=".activity.app_logo_screen" />
-        <activity android:name=".activity.login_activity">
-
-        </activity>
-        <activity android:name=".activity.signup_activity" />
-        <activity android:name=".TransitionActivity" />
-        <activity android:name=".Demo_Activity"></activity>
-        <activity android:name=".activity.HomeScreen">
+        <activity android:name=".activity.test_activity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activity.IntroActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity android:name=".Navigation_Main_Activity" />
+        <activity
+            android:name=".activity.app_logo_screen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.login_activity"
+            android:theme="@style/AppTheme.NoActionBar">
+
+
+        </activity>
+        <activity
+            android:name=".activity.signup_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TransitionActivity" />
+        <activity android:name=".Demo_Activity" />
+        <activity android:name=".activity.HomeScreen" />
+        <activity android:name=".DatabaseCheckActivity" />
+        <activity android:name=".activity.login_activity_2" />
+        <activity android:name=".activity.signup_activity_2" />
+        <activity
+            android:name=".DemoActivity2"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

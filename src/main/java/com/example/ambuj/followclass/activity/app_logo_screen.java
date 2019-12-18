@@ -12,26 +12,36 @@ public class app_logo_screen extends AppCompatActivity {
 
     private PrefManager prefManager;
     private Intent intent;
+    private Thread thread;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_app_logo_screen);
 
-        try{
-            Thread.sleep(2000);
-            prefManager = new PrefManager(this);
-            if(!prefManager.isFirstTimeLaunch()){
-                intent = new Intent(app_logo_screen.this,login_activity.class);
-            }else{
-                intent = new Intent(app_logo_screen.this,IntroActivity.class);
+        thread = new Thread(){
+            @Override
+            public void run() {
+                try{
+                    sleep(2000);
+                    prefManager = new PrefManager(getApplicationContext());
+                    if(!prefManager.isFirstTimeLaunch()){
+                        intent = new Intent(app_logo_screen.this,login_activity.class);
+                    }else{
+                        intent = new Intent(app_logo_screen.this,IntroActivity.class);
+                    }
+
+                    startActivity(intent);
+                    finish();
+
+                }catch (Exception e){
+                    Log.e("Error_In_Logo_Screen","error is :",e);
+                }
             }
+        };
+        thread.start();
 
-            startActivity(intent);
 
-        }catch (Exception e){
-            Log.e("Error_In_Logo_Screen","error is :",e);
-        }
 
     }
 }

@@ -11,7 +11,7 @@
         android:layout_marginTop="150dp"
         android:orientation="vertical"
         android:layout_gravity="center_horizontal">
-
+<!--
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -31,7 +31,7 @@
             android:textSize="@dimen/slide_desc"
             android:textStyle="normal"
             android:layout_gravity="center_horizontal"/>
-
+-->
 
     </LinearLayout>
 
