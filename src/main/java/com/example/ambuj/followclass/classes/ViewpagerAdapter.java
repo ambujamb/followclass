@@ -1,8 +1,8 @@
 package com.example.ambuj.followclass.classes;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentStatePagerAdapter;
 
 import com.example.ambuj.followclass.fragments.personal_profile;
 import com.example.ambuj.followclass.fragments.school_profile;

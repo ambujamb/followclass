@@ -36,7 +36,7 @@
                 android:layout_marginRight="8dp"
                 android:src="@drawable/login_pic1"/>
             <!--Username-->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -52,7 +52,7 @@
                     android:inputType="text"
                     />
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
@@ -72,7 +72,7 @@
                 android:layout_marginRight="8dp"
                 android:src="@drawable/login_pic1"/>
             <!--Email-->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -88,7 +88,7 @@
                     android:inputType="textEmailAddress"
                     />
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
@@ -108,7 +108,7 @@
                 android:layout_marginRight="8dp"
                 android:src="@drawable/login_pic1"/>
             <!--Password-->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -124,7 +124,7 @@
                     android:inputType="textPassword"
                     />
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
@@ -144,7 +144,7 @@
                 android:layout_marginRight="8dp"
                 android:src="@drawable/login_pic1"/>
             <!--Mobile Number-->
-            <android.support.design.widget.TextInputLayout
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
@@ -160,7 +160,7 @@
                     android:inputType="textPhonetic"
                     />
 
-            </android.support.design.widget.TextInputLayout>
+            </com.google.android.material.textfield.TextInputLayout>
 
         </LinearLayout>
 
@@ -206,7 +206,7 @@
         </LinearLayout>
 
         <!--SignUp Button -->
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_signup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -90,7 +90,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -98,7 +98,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/principal_name_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -107,7 +107,7 @@
                             android:textColor="@android:color/white"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -128,7 +128,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -136,7 +136,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/school_name_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -165,7 +165,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -173,7 +173,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/school_moto_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -181,7 +181,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -195,7 +195,7 @@
                     android:layout_marginBottom="10dp">
 
 
-                    <android.support.design.button.MaterialButton
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/upload_school_logo_signup"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -235,7 +235,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -243,7 +243,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/affilated_by_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -251,7 +251,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -272,7 +272,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -280,7 +280,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/doe_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -288,7 +288,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -340,7 +340,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -348,7 +348,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/email_id_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -357,7 +357,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -378,7 +378,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -386,7 +386,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/mobile_number_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -395,7 +395,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -416,7 +416,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -426,7 +426,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/password_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -434,7 +434,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -455,7 +455,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -463,7 +463,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/website_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -472,7 +472,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -493,7 +493,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -501,7 +501,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/phone_number_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -509,7 +509,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -564,7 +564,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -572,7 +572,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/state_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -580,7 +580,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -601,7 +601,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -609,7 +609,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/district_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -617,7 +617,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -638,7 +638,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -646,7 +646,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/city_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -654,7 +654,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -675,7 +675,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -683,7 +683,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/address_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -691,7 +691,7 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
@@ -712,7 +712,7 @@
                         android:backgroundTint="@android:color/white"/>
 
 
-                    <android.support.design.widget.TextInputLayout
+                    <com.google.android.material.textfield.TextInputLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
@@ -720,7 +720,7 @@
                         app:hintTextAppearance="@style/TextAppearance.App.TextInputLayout.TextLabel"
                         >
 
-                        <android.support.design.widget.TextInputEditText
+                        <com.google.android.material.textfield.TextInputEditText
                             android:id="@+id/pincode_signup"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -728,13 +728,13 @@
                             android:textSize="15dp"
                             />
 
-                    </android.support.design.widget.TextInputLayout>
+                    </com.google.android.material.textfield.TextInputLayout>
 
 
                 </LinearLayout>
 
 
-                <android.support.v7.widget.AppCompatButton
+                <androidx.appcompat.widget.AppCompatButton
                     android:layout_width="200dp"
                     android:layout_height="wrap_content"
                     android:background="@drawable/btn_design"
